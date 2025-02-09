@@ -1,0 +1,124 @@
+.navbar-top {
+    background-color: transparent;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar-scroll {
+    background-color: rgba(0, 0, 0, 0.393);
+    transition: all 0.5s ease;
+  }
+  
+  .icono {
+    color: white;
+    font-size: 1.5rem;
+  }
+  
+  .hide {
+    top: -110px;
+    transition: all 0.5s ease;
+  }
+  
+  .navbar-toggler {
+  border: none;
+  }
+  
+  .nav-link {
+      color: rgb(235, 206, 17);
+      font-size: 1.1rem
+  }
+  
+  .nav-link:hover {
+    color: rgb(235, 206, 17);
+  }
+  
+  .login-button {
+  margin-left: 1rem !important;
+  padding: 0.8rem ;
+  }
+  
+  .login {
+  visibility: visible;
+  }
+  
+  .contact {
+    background-color: #131f8f;
+    color: white;
+    border-color: #293498;
+  }
+
+  .contact:hover {
+    background-color: rgb(235, 206, 17);
+    color: white;
+    border-color: rgb(235, 206, 17);
+  }
+  
+  #nav .dropdown-menu {
+  background-color: white;
+  border: 0px;
+  font-size: medium;
+  border-radius: 0px;
+  text-align: start;
+  }
+  
+  #nav .dropdown-menu a {
+  padding-left: 17%;
+  }
+  
+  #nav hr {
+  transform: translateX(18px);
+  width: 125px;
+  }
+  
+  .underline-hover {
+    position: relative;
+    background: none;
+    border: none;
+    padding: 0;
+    font-size: inherit;
+    cursor: pointer;
+  }
+  
+  .underline-hover::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color:  rgb(235, 206, 17); 
+    transition: width 0.3s ease; 
+  }
+  
+  .underline-hover:hover::after {
+    width: 100%; 
+    color:  rgb(235, 206, 17);
+  }
+  
+  
+  #nav a:hover {
+  cursor: pointer;
+  }
+  
+  #nav .dropdown-item {
+  transition: all 200ms ease;
+  }
+  
+  #nav .dropdown-item:hover {
+  background-color: transparent;
+  transform: translateX(-5px);
+  transition: all 200ms ease;
+  }
+  
+  #nav .dropdown-item:active {
+  background-color: transparent;
+  }
+  
+  @media (min-width: 992px) {
+  .login{
+    display: none;
+  }
+  }
+  
+  .white-page {
+  background-color: black !important;
+  }
