@@ -23,8 +23,14 @@ const Navbar = () => {
     return (
         <nav className={`navbar navbar-dark fixed-top navbar-expand-lg ${isScrolled ? 'navbar-scroll' : 'navbar-top'} ${isHidden ? 'hide' : ''}`}>
             <div className="container mt-2">
-                <Link className="navbar-brand fw-bold text-white icono" to='/'>
-                    <img style={{ height: '57px' }} src={''} alt="#" /> PGOSA
+                <Link className="navbar-brand fw-bold text-white icono mt-2" to='/'>
+                    <img style={{ height: '57px' }} src={''} alt="" />
+                    
+                    <span className="fw-bold pgo-color">PGO</span>
+                    <span className="fw-bold sa-color">S</span>
+                    <span className="fw-bold pgo-color">A</span>
+            
+
                 </Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
