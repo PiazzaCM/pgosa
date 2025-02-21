@@ -120,6 +120,7 @@
 
 .titleServicesHome{
     color: #293498!important;
+    text-shadow: 2px 2px 4px rgba(255, 238, 0, 0.514);
 }
 
 .text-body-emphasis{
@@ -137,9 +138,16 @@
 
 .MarcasComercializadasHome{
     color: #293498;
+    text-shadow: 2px 2px 4px rgba(255, 238, 0, 0.541);
     
 }	
 
+
+.footer{
+    height: max-content;
+    background-color: #8888881c!important;
+    height: 200px;
+}
 
 
 @keyframes fadeIn {

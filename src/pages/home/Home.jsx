@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar/Navbar';
 
 import './css/home.css';
 import CarouselMarcas from '../../components/carrouselMarcas/CarouselMarcas';
+import Footer from '../../components/footer/Footer';
 
 const Home = () => {
     useEffect(() => {
@@ -138,7 +139,7 @@ const Home = () => {
             </div>
 
             <div className='MarcasComercializadasHome d-flex flex-column align-items-center text-center mt-5'>
-                <p className='fw-bold fs-3' style={{ maxWidth: '900px' }}>   MARCAS QUE COMERCIALIZAMOS  </p>
+                <p className='fw-bold fs-3' style={{ maxWidth: '950px' }}>   MARCAS QUE COMERCIALIZAMOS  </p>
             </div>
             <div className='scroll-animate'>
 
@@ -149,7 +150,9 @@ const Home = () => {
                 </div>
             </div>
 
-
+            <div className='footer'>
+                <Footer />
+            </div>
         </div>
 
     );
