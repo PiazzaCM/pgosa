@@ -37,6 +37,22 @@
     font-size: 1rem;
 }
 
+
+.descripcionMarcas{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.368);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.729), rgba(16, 34, 113, 0.636)), url(/suministros_petroleros_PGOSA_Mexico-min.jpg);
+    background-size: cover;
+    background-position: center; 
+    height: max-content;
+}
+
+.descripcionMarcas p{
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.368);
+    font-size: 1rem;
+}
+
 .text-overlay {
     position: absolute;           
     top: 50%;                   
@@ -70,7 +86,7 @@
 .services-list li {
     display: flex;
     align-items: center;
-    color: #293498;
+    color: #293498!important;
     margin-bottom: 15px;
     
 }
@@ -118,6 +134,11 @@
 
 
 }
+
+.MarcasComercializadasHome{
+    color: #293498;
+    
+}	
 
 
 
